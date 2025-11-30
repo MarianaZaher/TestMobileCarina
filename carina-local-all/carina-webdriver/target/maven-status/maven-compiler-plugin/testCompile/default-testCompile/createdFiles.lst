@@ -1,0 +1,15 @@
+com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/CaseInsensitiveMobileTest.class
+com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/LocatorConvertingWebTest.class
+com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/CaseInsensitiveWebTest.class
+com/zebrunner/carina/webdriver/core/capability/CapabilitiesLoaderTest.class
+com/zebrunner/carina/webdriver/DriverPoolTest.class
+com/zebrunner/carina/webdriver/core/capability/impl/desktop/DesktopCapabilitiesTest.class
+com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/LocatorConvertingMobileTest.class
+com/zebrunner/carina/webdriver/tvos/AppleTVTest.class
+com/zebrunner/carina/webdriver/decorator/ExtendedWebElementTest.class
+com/zebrunner/carina/webdriver/DevicePoolTest.class
+com/zebrunner/carina/utils/resources/L10NTest.class
+CarinaWebdriverLoggerTest.class
+com/zebrunner/carina/webdriver/proxy/ZebrunnerProxyTest.class
+com/zebrunner/carina/webdriver/ScreenshotTest.class
+com/zebrunner/carina/utils/LogicUtilsTest.class

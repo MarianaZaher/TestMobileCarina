@@ -1,0 +1,30 @@
+[2025-11-30 11:57:00] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.gsmarena.com
+selenium_url=http://127.0.0.1:4723/wd/hub
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+appPackage=com.saucelabs.mydemoapp.android
+appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity
+app=C:\Users\Abdelrhman\Downloads\mda-2.2.0-25.apk
+deviceType=phone
+noReset=true
+automationName=UiAutomator2
+autoGrantPermissions=true
+platformName=ANDROID
+deviceName=emulator-5554
+fullReset=false
+===============================================
+
+[2025-11-30 11:57:00] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-11-30 11:57:07] [1] [INFO] Set thread-count=1
+[2025-11-30 11:57:07] [1] [INFO] Set data-provider-thread-count=1
+[2025-11-30 11:57:07] [1] [INFO] CARINA_CORE_VERSION: 1.2.4-local
+[2025-11-30 11:57:07] [1] [WARN] The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[2025-11-30 11:57:07] [1] [INFO] INFO: '**************** Test execution summary ****************'.

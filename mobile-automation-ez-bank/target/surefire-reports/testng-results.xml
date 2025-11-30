@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TEST [Surefire test - runScenario [L01]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.HomePageSteps.iLaunchTheMobileApp(HomePageSteps.java:35)
+✽.I launch the mobile app(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/home_page.feature:8)]]>
+    </line>
+    <line>
+      <![CDATA[TEST [Surefire test - runScenario [L02]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.HomePageSteps.iLaunchTheMobileApp(HomePageSteps.java:35)
+✽.I launch the mobile app(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/home_page.feature:8)]]>
+    </line>
+    <line>
+      <![CDATA[TEST [Surefire test - runScenario [L03]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+    </line>
+    <line>
+      <![CDATA[TEST [Surefire test - runScenario [L04]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+    </line>
+    <line>
+      <![CDATA[TEST [Surefire test - runScenario [L05]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+    </line>
+    <line>
+      <![CDATA[TEST [Surefire test - runScenario [L06]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-30T12:40:16 UTC" name="Surefire suite" finished-at="2025-11-30T12:40:21 UTC" duration-ms="5433">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-11-30T12:40:16 UTC" name="Surefire test" finished-at="2025-11-30T12:40:21 UTC" duration-ms="5433">
+      <class name="com.automation.runners.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:16 UTC" name="setUpClass" finished-at="2025-11-30T12:40:17 UTC" duration-ms="1044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55132e22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:17 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-30T12:40:21 UTC" duration-ms="3680" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify app logo is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+at com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+at com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+at com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+at com.automation.stepdefinitions.HomePageSteps.iLaunchTheMobileApp(HomePageSteps.java:35)
+at ✽.I launch the mobile app(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/home_page.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Surefire test - runScenario [L01]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.HomePageSteps.iLaunchTheMobileApp(HomePageSteps.java:35)
+✽.I launch the mobile app(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/home_page.feature:8)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="onCarinaAfterMethod" finished-at="2025-11-30T12:40:21 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-30T12:40:21 UTC" duration-ms="82" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open products cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+at com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+at com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+at com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+at com.automation.stepdefinitions.HomePageSteps.iLaunchTheMobileApp(HomePageSteps.java:35)
+at ✽.I launch the mobile app(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/home_page.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Surefire test - runScenario [L02]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.HomePageSteps.iLaunchTheMobileApp(HomePageSteps.java:35)
+✽.I launch the mobile app(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/home_page.feature:8)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="onCarinaAfterMethod" finished-at="2025-11-30T12:40:21 UTC" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-30T12:40:21 UTC" duration-ms="59" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login page is displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+at com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+at com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+at com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+at com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+at ✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Surefire test - runScenario [L03]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="onCarinaAfterMethod" finished-at="2025-11-30T12:40:21 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-30T12:40:21 UTC" duration-ms="71" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful user login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+at com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+at com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+at com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+at com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+at ✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Surefire test - runScenario [L04]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="onCarinaAfterMethod" finished-at="2025-11-30T12:40:21 UTC" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-30T12:40:21 UTC" duration-ms="55" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login and verify home page elements"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+at com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+at com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+at com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+at com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+at ✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Surefire test - runScenario [L05]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="onCarinaAfterMethod" finished-at="2025-11-30T12:40:21 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-30T12:40:21 UTC" duration-ms="99" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to products cart after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Login Testing"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+at com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+at com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+at com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+at com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+at com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+at ✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Surefire test - runScenario [L06]] FAILED at [12:40:21 2025-11-30] - Could not start a new session. Response code 404. Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1030-azure', java.version: '21.0.9'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:deviceType=phone, appium:locale=US, appium:language=en, appium:automationName=UiAutomator2, appium:fullReset=false, appium:platformVersion=13.0, appium:noReset=true, appium:autoGrantPermissions=true, appium:appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity, appium:deviceName=emulator-5554, platformName=ANDROID, appium:app=https://github.com/saucelabs/my-demo-app-android/releases/download/v2.2.0/mda-2.2.0-25.apk, appium:appPackage=com.saucelabs.mydemoapp.android}], desiredCapabilities=Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}}]
+Capabilities {appium:app: https://github.com/saucelab..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: emulator-5554, appium:deviceType: phone, appium:fullReset: false, appium:language: en, appium:locale: US, appium:noReset: true, appium:platformVersion: 13.0, platformName: ANDROID}
+
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:182)
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+com.zebrunner.carina.webdriver.listener.EventFiringAppiumCommandExecutor.execute(EventFiringAppiumCommandExecutor.java:109)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="onCarinaAfterMethod" finished-at="2025-11-30T12:40:21 UTC" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.runners.CucumberTestRunner@382d4ad8]" started-at="2025-11-30T12:40:21 UTC" name="tearDownClass" finished-at="2025-11-30T12:40:21 UTC" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.runners.CucumberTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

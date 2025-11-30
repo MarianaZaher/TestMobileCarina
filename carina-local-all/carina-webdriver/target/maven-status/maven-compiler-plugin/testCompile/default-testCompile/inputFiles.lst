@@ -1,0 +1,15 @@
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/LocatorConvertingMobileTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/LocatorConvertingWebTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/CarinaWebdriverLoggerTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/proxy/ZebrunnerProxyTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/core/capability/CapabilitiesLoaderTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/utils/LogicUtilsTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/CaseInsensitiveWebTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/DriverPoolTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/ScreenshotTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/locator/converter/caseinsensitive/CaseInsensitiveMobileTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/utils/resources/L10NTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/tvos/AppleTVTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/decorator/ExtendedWebElementTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/core/capability/impl/desktop/DesktopCapabilitiesTest.java
+/workspaces/TestMobileCarina/carina-local-all/carina-webdriver/src/test/java/com/zebrunner/carina/webdriver/DevicePoolTest.java

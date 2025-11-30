@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "type": "java",
+      "name": "Run All Cucumber Tests (Maven)",
+      "request": "launch",
+      "mainClass": "org.codehaus.mojo.exec.ExecJavaMojo",
+      "projectName": "automation-testing",
+      "args": [
+        "clean", "test"
+      ]
+    },
+
+    {
+      "type": "java",
+      "name": "Run Current Feature (Maven)",
+      "request": "launch",
+      "mainClass": "org.codehaus.mojo.exec.ExecJavaMojo",
+      "projectName": "automation-testing",
+      "args": [
+        "test",
+        "-Dcucumber.features=${file}"
+      ]
+    }
+
+  ]
+}

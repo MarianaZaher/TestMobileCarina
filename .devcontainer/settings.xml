@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <!--
+    Template settings.xml for devcontainer.
+    Replace the placeholders below with your internal repository URL and server id.
+    It's best to store credentials in CI secret storage or use an encrypted password.
+  -->
+
+  <servers>
+    <!-- Server entry for internal repo credentials (if required).
+         Use environment variables to avoid committing secrets to the repo.
+         Set in Codespaces/Devcontainer secrets or in your CI environment:
+           MAVEN_REPO_SERVER_ID - server id used below (e.g. internal-repo)
+           MAVEN_REPO_USER - username for the repository
+           MAVEN_REPO_PASSWORD - password or token for the repository
+    -->
+    <server>
+      <id>${env.MAVEN_REPO_SERVER_ID}</id>
+      <username>${env.MAVEN_REPO_USER}</username>
+      <password>${env.MAVEN_REPO_PASSWORD}</password>
+    </server>
+  </servers>
+
+  <mirrors>
+    <!-- Mirror all requests to the internal repository -->
+    <mirror>
+      <id>internal-mirror</id>
+      <name>Internal mirror</name>
+      <url>${env.MAVEN_INTERNAL_REPO_URL}</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+
+  <profiles>
+    <profile>
+      <id>internal-repo-profile</id>
+      <repositories>
+        <repository>
+          <id>${env.MAVEN_REPO_SERVER_ID}</id>
+          <url>${env.MAVEN_INTERNAL_REPO_URL}</url>
+          <releases>
+            <enabled>true</enabled>
+          </releases>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <activeProfiles>
+    <activeProfile>internal-repo-profile</activeProfile>
+  </activeProfiles>
+
+</settings>

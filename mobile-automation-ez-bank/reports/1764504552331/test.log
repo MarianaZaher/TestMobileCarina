@@ -1,0 +1,35 @@
+[2025-11-30 12:09:12] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.gsmarena.com
+selenium_url=http://127.0.0.1:4723/wd/hub
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+appPackage=com.saucelabs.mydemoapp.android
+appActivity=com.saucelabs.mydemoapp.android.view.activities.SplashActivity
+app=C:\Users\Abdelrhman\Downloads\mda-2.2.0-25.apk
+deviceType=phone
+noReset=true
+automationName=UiAutomator2
+autoGrantPermissions=true
+platformName=ANDROID
+deviceName=emulator-5554
+fullReset=false
+===============================================
+
+[2025-11-30 12:09:12] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-11-30 12:09:17] [1] [INFO] Set thread-count=1
+[2025-11-30 12:09:17] [1] [INFO] Set data-provider-thread-count=1
+[2025-11-30 12:09:17] [1] [INFO] CARINA_CORE_VERSION: 1.2.4-local
+[2025-11-30 12:09:22] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2025-11-30 12:09:22] [1] [INFO] RESULT #1: TEST [Surefire test - runScenario [L01]] FAIL [log=file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/reports/1764504552331/2eb7a052-334c-4f17-8cc2-327518bef44f/test.log]
+[2025-11-30 12:09:22] [1] [INFO] RESULT #2: TEST [Surefire test - runScenario [L02]] FAIL [log=file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/reports/1764504552331/13f3ee14-f696-4d13-95dc-98dd3bdbea30/test.log]
+[2025-11-30 12:09:22] [1] [INFO] RESULT #3: TEST [Surefire test - runScenario [L03]] FAIL [log=file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/reports/1764504552331/968107c8-e648-4152-83d1-c82b622787d0/test.log]
+[2025-11-30 12:09:22] [1] [INFO] RESULT #4: TEST [Surefire test - runScenario [L04]] FAIL [log=file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/reports/1764504552331/30107306-545f-4b94-967c-abe59c71f170/test.log]
+[2025-11-30 12:09:22] [1] [INFO] RESULT #5: TEST [Surefire test - runScenario [L05]] FAIL [log=file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/reports/1764504552331/17c50a43-4cae-4bbd-aa2d-5ac18e6faea4/test.log]
+[2025-11-30 12:09:22] [1] [INFO] RESULT #6: TEST [Surefire test - runScenario [L06]] FAIL [log=file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/reports/1764504552331/7dbf7db2-04a5-4d50-a20e-4077da19bd50/test.log]

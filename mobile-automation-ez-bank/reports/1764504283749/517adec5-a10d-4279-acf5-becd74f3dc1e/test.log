@@ -1,0 +1,20 @@
+[2025-11-30 12:04:52] [1] [WARN] Reporting disabled: using no op test run registrar
+[2025-11-30 12:04:52] [1] [INFO] TEST [Surefire test - runScenario [L06]] STARTED at [12:04:52 2025-11-30]
+[2025-11-30 12:04:52] [1] [INFO] === Launching EZ Bank mobile application ===
+[2025-11-30 12:04:52] [1] [INFO] Starting driver session...
+[2025-11-30 12:04:52] [1] [ERROR] TEST [Surefire test - runScenario [L06]] FAILED at [12:04:52 2025-11-30] - Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'codespaces-e2cff2', ip: '127.0.0.1'
+
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:274)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:103)
+com.zebrunner.carina.webdriver.core.factory.impl.MobileFactory.create(MobileFactory.java:111)
+com.zebrunner.carina.webdriver.core.factory.DriverFactory.create(DriverFactory.java:89)
+com.zebrunner.carina.webdriver.IDriverPool.createDriver(IDriverPool.java:404)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:152)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:116)
+com.zebrunner.carina.webdriver.IDriverPool.getDriver(IDriverPool.java:104)
+com.automation.stepdefinitions.LoginPageSteps.launchApplication(LoginPageSteps.java:33)
+✽.I launch the EZ Bank mobile application(file:///workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/resources/features/login.feature:8)

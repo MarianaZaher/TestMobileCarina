@@ -1,0 +1,5 @@
+/workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/java/com/automation/stepdefinitions/HomePageSteps.java
+/workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/java/com/automation/stepdefinitions/APIUserSteps.java
+/workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/java/com/automation/stepdefinitions/LoginPageSteps.java
+/workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/java/com/automation/runners/CucumberTestRunner.java
+/workspaces/TestMobileCarina/mobile-automation-ez-bank/src/test/java/com/automation/stepdefinitions/Hooks.java

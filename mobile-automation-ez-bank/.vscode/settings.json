@@ -1,0 +1,17 @@
+{
+    "java.test.config": [
+        {
+            "name": "cucumberTests",
+            "workingDirectory": "${workspaceFolder}",
+            "testKind": "testng"
+        }
+    ],
+    "java.test.defaultConfig": "cucumberTests",
+    "cucumber.features": [],
+    "cucumber.glue": [],
+    "cucumberautocomplete.steps": [],
+    "cucumberautocomplete.syncfeatures": false,
+    "cucumberautocomplete.skipDocStringsFormat": true,
+    "cucumberautocomplete.smartSnippets": false,
+    "cucumberautocomplete.stepsInvariants": false
+}

@@ -1,0 +1,6 @@
+com/automation/pages/common/HomePageBase.class
+com/automation/pages/common/LoginPageBase.class
+com/automation/pages/android/HomePage.class
+com/automation/api/GetUserMethod.class
+com/automation/api/PostUserMethod.class
+com/automation/pages/android/LoginPage.class

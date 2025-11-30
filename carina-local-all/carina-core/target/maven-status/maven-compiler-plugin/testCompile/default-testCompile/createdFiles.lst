@@ -1,0 +1,9 @@
+CarinaCoreLoggerTest.class
+com/zebrunner/carina/utils/DateUtilsTest.class
+com/zebrunner/carina/core/registrar/ownership/MethodOwnerTest.class
+com/zebrunner/carina/utils/retry/RetryTest.class
+com/zebrunner/carina/core/reporting/TestRailTest.class
+com/zebrunner/carina/core/reporting/QTestTest.class
+com/zebrunner/carina/core/testng/TestNamingServiceTest.class
+com/zebrunner/carina/core/reporting/EmailTest.class
+com/zebrunner/carina/core/registrar/tag/TagManagerTest.class

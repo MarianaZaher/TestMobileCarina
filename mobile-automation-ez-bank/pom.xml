@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Your project info -->
+    <groupId>com.automation</groupId>
+    <artifactId>automation-testing</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>Automation Testing Framework</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <carina-core.version>1.2.4-local</carina-core.version>
+        <carina-api.version>1.2.4-local</carina-api.version>
+        <carina-dataprovider.version>1.2.4-local</carina-dataprovider.version>
+        <carina-utils.version>1.2.4-local</carina-utils.version>
+
+        <java.version>21</java.version>
+
+        <cucumber.version>7.18.1</cucumber.version>
+
+        <zebrunner-agent.version>1.9.8</zebrunner-agent.version>
+        <suite>apiSuite</suite>
+    </properties>
+
+    <dependencies>
+
+        <!-- Carina Core -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-core</artifactId>
+            <version>${carina-core.version}</version>
+        </dependency>
+
+        <dependency>
+        <groupId>com.zebrunner</groupId>
+            <artifactId>carina-webdriver</artifactId>
+            <version>1.2.4-local</version>
+        </dependency>
+
+        <!-- Carina API -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-api</artifactId>
+            <version>${carina-api.version}</version>
+        </dependency>
+
+        <!-- Carina Dataprovider -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-dataprovider</artifactId>
+            <version>${carina-dataprovider.version}</version>
+        </dependency>
+
+        <!-- Carina Utils -->
+        <dependency>
+            <groupId>com.zebrunner</groupId>
+            <artifactId>carina-utils</artifactId>
+            <version>${carina-utils.version}</version>
+        </dependency>
+
+   
+     
+
+        <!-- Cucumber -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Note: Zebrunner integration is configured via agent.properties (see src/main/resources/agent.properties) -->
+        <!-- The zebrunner-agent JAR is pulled transitively by carina-core if Zebrunner is enabled. -->
+
+        <!-- Note: Using Carina built-in reporting; removed Extent adapter dependency -->
+
+    </dependencies>
+
+    <build>
+        <plugins>
+
+            <!-- Java Compiler -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <release>${java.version}</release>
+                </configuration>
+            </plugin>
+
+            <!-- Surefire for TestNG -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <includes>
+                        <include>**/*Runner.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>
