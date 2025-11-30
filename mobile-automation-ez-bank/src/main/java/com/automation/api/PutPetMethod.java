@@ -9,25 +9,26 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * POST /pet - Creates a new pet in the Petstore
+ * PUT /pet - Updates an existing pet in the Petstore
+ * Carina function: AbstractApiMethodV2 - provides HTTP request/response handling
  */
-@Endpoint(url = "https://petstore.swagger.io/v2/pet", methodType = HttpMethodType.POST)
+@Endpoint(url = "https://petstore.swagger.io/v2/pet", methodType = HttpMethodType.PUT)
 @SuccessfulHttpStatus(status = HttpResponseStatusType.OK_200)
-public class PostUserMethod extends AbstractApiMethodV2 {
+public class PutPetMethod extends AbstractApiMethodV2 {
 
-    public PostUserMethod() {
-        // No placeholder replacement needed - using absolute URL
+    public PutPetMethod() {
+        // No base_url placeholder needed - using absolute URL
     }
 
     /**
-     * Builds and sets request body with pet data
+     * Builds and sets request body to update pet data
      * Carina function: setRequestBody() - sets request body directly without template files
      */
-    public void buildPetRequest(long petId, String petName, String status) {
+    public void buildUpdatePetRequest(long petId, String petName, String newStatus) {
         Map<String, Object> petRequest = new HashMap<>();
         petRequest.put("id", petId);
         petRequest.put("name", petName);
-        petRequest.put("status", status);
+        petRequest.put("status", newStatus);
         
         Map<String, Object> category = new HashMap<>();
         category.put("id", 1);
@@ -38,9 +39,9 @@ public class PostUserMethod extends AbstractApiMethodV2 {
     }
 
     /**
-     * Builds default pet request
+     * Builds default update pet request
      */
-    public void buildDefaultPetRequest() {
-        buildPetRequest(1001, "Fluffy", "available");
+    public void buildDefaultUpdateRequest() {
+        buildUpdatePetRequest(1001, "Fluffy Updated", "sold");
     }
 }

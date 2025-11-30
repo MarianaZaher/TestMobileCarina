@@ -1,53 +1,55 @@
 @api-ez
-Feature: User API Testing
+Feature: Swagger Petstore API Testing
   As a QA Engineer
-  I want to test User API endpoints
-  So that I can ensure the API works correctly
+  I want to test Petstore API endpoints (GET, POST, PUT, DELETE, Batch)
+  So that I can ensure CRUD operations work correctly
 
-  # Basic Status Code Validation
-  Scenario: Create a new user with status code validation
+  # POST - Create a new pet
+  Scenario: Create a new pet
     Given the API base URL is configured
-    When I send a POST request to create a user
-    Then the response status code should be 201
-
-  # Request/Response Validation using Templates
-  Scenario: Create user and validate response structure
-    Given the API base URL is configured
-    When I send a POST request to create a user with template validation
-    Then the response should validate against the schema
-    And the response status code should be 201
-
-  # Header Management
-  Scenario: Create user with custom headers
-    Given the API base URL is configured
-    When I send a POST request with custom headers
-    Then the response status code should be 201
-    And the response should contain authentication token
-
-  # URL Parameter Substitution
-  Scenario: Retrieve user with URL parameter replacement
-    Given the API base URL is configured
-    When I send a GET request to retrieve user with ID placeholder
+    When I send a POST request to create a pet
     Then the response status code should be 200
-    And the response should contain user details
+    And the response should contain field "id" with value "1001"
 
-  # Dynamic Property Replacement
-  Scenario: Create user with dynamic property values
+  # GET - Retrieve a pet
+  Scenario: Retrieve pet by ID
     Given the API base URL is configured
-    When I send a POST request with dynamic properties
-    Then the response status code should be 201
-    And the response should contain created user ID
+    When I send a GET request to retrieve pet with ID "1001"
+    Then the response status code should be 200
+    And the response should contain pet details
 
-  # Multiple Assertions on Response Content
-  Scenario: Validate multiple response fields
+  # PUT - Update existing pet
+  Scenario: Update an existing pet
     Given the API base URL is configured
-    When I send a POST request to create a user
-    Then the response status code should be 201
-    And the response should contain field "firstName" with value "John"
-    And the response should contain field "lastName" with value "Doe"
-    And the response should contain field "email"
+    When I send a PUT request to update pet with ID "1001"
+    Then the response status code should be 200
+    And the response should contain updated pet information
 
-  # Cookies and Authentication
+  # DELETE - Remove a pet
+  Scenario: Delete a pet
+    Given the API base URL is configured
+    When I send a DELETE request to remove pet with ID "1001"
+    Then the response status code should be 200
+
+  # Batch operation - Create multiple pets
+  Scenario: Batch create multiple pets
+    Given the API base URL is configured
+    When I send a batch POST request to create multiple pets
+    Then the response status code should be 200
+    And the response should indicate successful batch operation
+
+  # Validate pet status changes
+  Scenario: Validate pet status transitions
+    Given the API base URL is configured
+    When I send a POST request to create a pet with status "available"
+    And I send a PUT request to update pet status to "sold"
+    Then the pet status should be updated to "sold"
+
+  # Error handling - Get non-existent pet
+  Scenario: Handle pet not found error
+    Given the API base URL is configured
+    When I send a GET request to retrieve pet with ID "99999"
+    Then the response status code should be 404
   Scenario: Create user with authentication
     Given the API base URL is configured
     When I send a POST request with authentication
