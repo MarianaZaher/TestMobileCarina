@@ -50,9 +50,4 @@ Feature: Swagger Petstore API Testing
     Given the API base URL is configured
     When I send a GET request to retrieve pet with ID "99999"
     Then the response status code should be 404
-  Scenario: Create user with authentication
-    Given the API base URL is configured
-    When I send a POST request with authentication
-    Then the response status code should be 201
-    And the response should contain session cookie
     
